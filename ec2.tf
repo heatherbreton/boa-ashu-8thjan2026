@@ -11,3 +11,5 @@ resource "aws_instance" "example" {
     Name = "ashu-vm-${each.key}"
   }
 }
+
+ 
